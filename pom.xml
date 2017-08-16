@@ -20,7 +20,7 @@
 		</mule.munit.support.version>
 
 		<uid>grantz</uid>
-		<pwd>FHL1MuleSoft</pwd>
+		<pwd>junk</pwd>
 	</properties>
 	<build>
 		<plugins>
