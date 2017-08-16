@@ -30,4 +30,5 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
             <munit:assert-on-equals message="FAILED. Expected location to be national, but found #[payload.'location'] at row #[flowVars.counter] instead !!!" expectedValue="#['national']" actualValue="#[payload.'location']" doc:name="Assert Equals"/>
         </foreach>
     </munit:test>
+
 </mule>
